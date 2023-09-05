@@ -1,0 +1,156 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/matiastecheira/github/PracticoSonarCube/codeExample/src/TechTalksMQProducer/TechTalksMQProducer.csproj": {}
+  },
+  "projects": {
+    "/Users/matiastecheira/github/PracticoSonarCube/codeExample/src/TechTalksModel/TechTalksModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matiastecheira/github/PracticoSonarCube/codeExample/src/TechTalksModel/TechTalksModel.csproj",
+        "projectName": "TechTalksModel",
+        "projectPath": "/Users/matiastecheira/github/PracticoSonarCube/codeExample/src/TechTalksModel/TechTalksModel.csproj",
+        "packagesPath": "/Users/matiastecheira/.nuget/packages/",
+        "outputPath": "/Users/matiastecheira/github/PracticoSonarCube/codeExample/src/TechTalksModel/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/matiastecheira/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/matiastecheira/github/PracticoSonarCube/codeExample/src/TechTalksMQProducer/TechTalksMQProducer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matiastecheira/github/PracticoSonarCube/codeExample/src/TechTalksMQProducer/TechTalksMQProducer.csproj",
+        "projectName": "TechTalksMQProducer",
+        "projectPath": "/Users/matiastecheira/github/PracticoSonarCube/codeExample/src/TechTalksMQProducer/TechTalksMQProducer.csproj",
+        "packagesPath": "/Users/matiastecheira/.nuget/packages/",
+        "outputPath": "/Users/matiastecheira/github/PracticoSonarCube/codeExample/src/TechTalksMQProducer/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/matiastecheira/github/PracticoSonarCube/codeExample/src/TechTalksMQProducer/NuGet.Config",
+          "/Users/matiastecheira/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/matiastecheira/github/PracticoSonarCube/codeExample/src/TechTalksModel/TechTalksModel.csproj": {
+                "projectPath": "/Users/matiastecheira/github/PracticoSonarCube/codeExample/src/TechTalksModel/TechTalksModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[31.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.2.1, )"
+            },
+            "prometheus-net": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "prometheus-net.AspNetCore": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

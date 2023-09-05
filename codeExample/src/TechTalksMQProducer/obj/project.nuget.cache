@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "jRnTzUkxALMWb1HIT6i+tLOf3bLdujteyBvq2nkZfgKFcI2TlvkyZRXYkE4qC4J6IrJgofse3s2eo5tTy0q6XA==",
+  "success": true,
+  "projectFilePath": "/Users/matiastecheira/github/PracticoSonarCube/codeExample/src/TechTalksMQProducer/TechTalksMQProducer.csproj",
+  "expectedPackageFiles": [
+    "/Users/matiastecheira/.nuget/packages/bogus/31.0.3/bogus.31.0.3.nupkg.sha512",
+    "/Users/matiastecheira/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/matiastecheira/.nuget/packages/prometheus-net/4.2.0/prometheus-net.4.2.0.nupkg.sha512",
+    "/Users/matiastecheira/.nuget/packages/prometheus-net.aspnetcore/4.2.0/prometheus-net.aspnetcore.4.2.0.nupkg.sha512",
+    "/Users/matiastecheira/.nuget/packages/rabbitmq.client/6.2.1/rabbitmq.client.6.2.1.nupkg.sha512",
+    "/Users/matiastecheira/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/matiastecheira/.nuget/packages/system.threading.channels/4.7.1/system.threading.channels.4.7.1.nupkg.sha512",
+    "/Users/matiastecheira/.nuget/packages/microsoft.netcore.app.host.osx-x64/5.0.17/microsoft.netcore.app.host.osx-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
